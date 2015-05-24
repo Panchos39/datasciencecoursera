@@ -1,6 +1,11 @@
 
 
-##Create the special Matrix object
+##Create the special Matrix object, which can cache the inverse version of itself.
+## There are four methods:
+## set: set new value for matrix
+## get: get Matrix value
+## set: set new value for inverse matrix
+## set: get Inverse matrix value
 
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
